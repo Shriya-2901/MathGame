@@ -1,0 +1,172 @@
+html{
+    background-image: url(floral.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#container
+{
+    height: 600px;
+    width:700px;
+    border-style: groove;
+    border-radius: 30px;
+    background-image: url(white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:100px auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px white;
+    position: relative;
+}
+#score
+{
+    background: linear-gradient(white,grey,black);
+    border-style: hidden;
+    border-radius:10px;
+    color: azure;
+    position:absolute;
+    left:650px;
+    box-shadow: 0px 4px grey;
+    
+    width: 75px;
+}
+#correct{
+    position:absolute;
+    left:340px;
+    background-color: lightgreen;
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 0px 3px 5px green;
+    display: none;
+    
+}
+#wrong{
+    position:absolute;
+    left:340px;
+    background-color: red;
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 0px 3px 5px darkred ;
+    display: none;
+}
+#question{
+    height:200px;
+    width: 600px;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: purple;
+    border-width: 7px;
+    background-image: url(pink.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 5px pink;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    margin: 80px auto 10px auto;
+    color: floralwhite;
+    line-height: 200px;
+    font-size: 100px;
+     background-size: cover;
+    background-position: center;
+    
+}
+#instruction{
+    width: 600px;
+    height: 75px;
+    background: linear-gradient(pink, white);
+    border-style: hidden;
+    border-radius: 10px;
+     margin: 20px auto 10px auto;
+    text-align: center;
+    line-height: 75.5px;
+    font-family: cursive;
+    font-style: oblique;
+}
+#choices{
+    width:600px;
+    height: 150px;
+    margin: 20px auto 10px auto;
+   
+   
+
+}
+.box{
+    width:100px;
+    height: 100px;
+    background-image: url(blue.jpg);
+    float: left;
+    margin-right: 66px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px deepblue;
+    color: aliceblue;
+    text-align: center;
+    line-height: 85px;
+    transition: all 0.3s;
+}
+#box4{margin-right: 0;}
+.box:hover{
+    box-shadow: 5px 10px 5px pink;
+    background-image: url(border.jpg);
+    color:black;
+}
+
+.box:active{box-shadow: 10px 0px 5px skyblue;}
+#startreset
+{
+    width:100px;
+   
+    background:linear-gradient(white,skyblue);
+    
+    margin:0 auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px deepblue;
+    color:black;
+    text-align: center;
+    padding:10px;
+    transition: all 0.3s;
+}
+#startreset:hover{ background: radial-gradient(circle , white, hotpink);
+    box-shadow: 5px 10px 5px pink;}
+#startreset:active{box-shadow: 10px 0px 5px skyblue;
+background-color: aliceblue;
+
+}
+
+#timeremaining{
+    width:200px;
+    padding: 10px;
+    position:absolute;
+    top:590px;
+    border-style: hidden;
+    background: linear-gradient(lightgreen,white,lightgreen);
+    right:30px;
+    text-align: center;
+    border-radius:5px;
+    box-shadow: 0px 5px 5px grey;
+    display: none;
+    
+}
+#gameover{
+    height:300px;
+    width: 500px;
+    background: linear-gradient(yellow, orange);
+    text-align: center;
+    font-size:35px;
+    color: white;
+    text-transform: uppercase;
+    position:absolute;
+    top:150px;
+    left:125px;
+    z-index:2;
+    display:none;
+    
+}
